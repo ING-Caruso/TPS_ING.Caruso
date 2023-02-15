@@ -5,7 +5,7 @@ public class Nodo {
     private Nodo nodo;
 
     /**
-     *
+     *  !(w il duce)
      */
     public Nodo() {
         // TODO Auto-generated constructor stub
