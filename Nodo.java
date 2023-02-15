@@ -17,6 +17,12 @@ public class Nodo {
         nodo = null;
     }
 
+
+	public Nodo(Nodo nodo){
+		this.info = nodo.getInfo();
+		this.nodo = nodo.getLinkNodo();
+	}
+
     private void creaNodo(int i, Nodo link) {
         this.info = i;
         this.nodo = link;
